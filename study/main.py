@@ -2,7 +2,6 @@
 
 # Press Umschalt+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
 from util import *
 
 
@@ -17,6 +16,9 @@ if __name__ == '__main__':
     stats = reader.get_stats()
     for stat in stats:
         print(stat)
+
+    data_reader = study_reader.StudyReader('../data/01.csv')
+    data_reader.read()
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

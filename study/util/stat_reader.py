@@ -7,13 +7,13 @@ from . import mapping_methods as mm
 
 
 class StatReader:
-    __stats__: list[stats.LayerStats]
+    __stats: list[stats.LayerStats]
 
     def __init__(self, file: str):
-        self.__stats__ = self.__readStats__(file)
+        self.__stats = self.__readStats__(file)
 
     def get_stats(self):
-        return self.__stats__
+        return self.__stats
 
     def __readStats__(self, file: str) -> list[stats.LayerStats]:
         with open(file, newline='') as csv_file:
