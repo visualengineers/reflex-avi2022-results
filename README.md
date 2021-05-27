@@ -9,7 +9,7 @@ Python project to evaluate study log files
 
 `2021-05-11T14:55:08.419Z; INTERACTION; direct;18;14,9,5,1,17;18;1; 0.5099127;0.5482645;-0.449999869;637563489084131200;1;8`
 
-| DateTime (LogServer)     | STATE          | mapping method | Task-No. | Target Layers | Layer-Count | Trial-Idx | PosX             | PosY                                                  | PosZ         | TimeStamp (Server) | InteractionType | CurrentLayer |
+| DateTime (LogServer)     | STATE          | mapping method | Task-No.  | Target Layers | Layer-Count | Trial-Idx | PosX             | PosY                                                  | PosZ         | TimeStamp (Server) | InteractionType | CurrentLayer |
 | ------------------------ | -------------- | -------------- | --------- | ------------- | ----------- | --------- | ---------------- | ----------------------------------------------------- | ------------ | ------------------ | --------------- | ------------ |
 | 2021-05-11T14:55:08.419Z | INTERACTION    | direct         | 18        | 14,9,5,1,17   | 18          | 1         | 0.5099127        | 0.5482645                                             | -0.449999869 | 637563489084131200 | 1               | 8            |
 | 2021-05-10T12:14:37.259Z | VIEW           | direct         | 2         | 7,8,1,5,2     | 9           | 0         | TASK_DESCRIPTION |                                                       |              |                    |                 |              |
@@ -33,19 +33,48 @@ Python project to evaluate study log files
 * 3 Blocks for any mapping method
 * STATE:
   
-    | State Value    | Description                                       | SubTypes           |
-    | -------------- | ------------------------------------------------- | ------------------ |
-    | INTERACTION    | Trial interaction                                 | -                  |
-    | VIEW           | switched view (describe Task)                     | TASK_VIEW          |
-    | VIEW           | switched view (describe Task)                     | Test Run TASK_VIEW |
-    |                |                                                   | TASK_DESCRIPTION   |
-    | TASK           |                                                   |                    |
-    | MAPPING_METHOD | starting to next large block (mapping method)     |                    |
-    | SUBTASK        | same as the next: starting to next task           |                    |
-    | SUBTASK_STATE  | start of the trial after Subtask                  | START              |
-    |                | dwell time in a layer exceeded: hold-timer starts | HOLD               |
-    |                | end of the trial (Success)                        | COMPLETED          |
-    |                | end of the trial (hold failure                    | TERMINATED         |
-    |                | end of the trial (wrong level ?)                  | FAILED             |
+    | State Value        | Description                                       | SubTypes           |
+    | ------------------ | ------------------------------------------------- | ------------------ |
+    | __INTERACTION__    | Trial interaction                                 | -                  |
+    | __VIEW__           | switched view (describe Task)                     | TASK_VIEW          |
+    |                    | switched view in test runs (describe Task)        | Test Run TASK_VIEW |
+    |                    |                                                   | TASK_DESCRIPTION   |
+    | __TASK__           |                                                   |                    |
+    | __MAPPING_METHOD__ | starting to next large block (mapping method)     |                    |
+    | __SUBTASK__        | same as the next: starting to next task           |                    |
+    | __SUBTASK_STATE__  | start of the trial after Subtask                  | START              |
+    |                    | dwell time in a layer exceeded: hold-timer starts | HOLD               |
+    |                    | end of the trial (Success)                        | COMPLETED          |
+    |                    | end of the trial (hold failure                    | TERMINATED         |
+    |                    | end of the trial (wrong level ?)                  | FAILED             |
 
 
+* mapping method  
+  describes, how layers are aligned:
+    * __direct__ (equivalent distance)
+    * __densening__ (larger distance on top, decreasing with depth value)
+    * __widening__ (narrower distance on top, increasing with depth value)
+    
+* Task-No. 
+    * running number of tasks
+    
+* Target Layers, Trial-Idx
+    * array of targets for each layer in current Task
+    * trial-Index (zero based) describes target layer for current trial
+    
+* Layer-Count
+    * number of max layers in Task
+    
+* PosX, PosY, PosZ
+    * Positions received from Tracking Server
+    * PosX / PosY in range [0, 1]
+    * PosZ in range [-1, 1] with 0 = on the surface / no interaction, -1 max push, +1 max pull
+    
+* Timestamp (Server)
+    * timestamp received from Tracking server: miliseconds based unix time stamp
+    
+* InteractionType
+    * type recognized from server (1 = PUSH)
+    
+* current layer
+    * layer associated with received depth value
