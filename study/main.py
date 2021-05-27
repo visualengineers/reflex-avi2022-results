@@ -17,7 +17,7 @@ if __name__ == '__main__':
     for stat in stats:
         print(stat)
 
-    data_reader = study_reader.StudyReader('../data/01.csv')
+    data_reader = study_reader.StudyReader('../data/02.csv')
     data_reader.read()
 
 
