@@ -4,7 +4,8 @@ Python project to evaluate study log files
 
 1. [Log files Structure](#log-files-structure)
 2. [Values](#values)
-3. [Layers Statistics file](#layers-statistics-file)
+3. [order of states](#order-of-states)
+4. [Layers Statistics file](#layers-statistics-file)
 
 ## Log files Structure
 
@@ -71,6 +72,16 @@ Python project to evaluate study log files
   * type recognized from server (1 = PUSH)
 * current layer
   * layer associated with received depth value
+
+## order of states
+
+1. START (missing on first trial !) OR
+   * start of an new task
+2. TASK_VIEW / TASK_DESCRIPTION
+   
+3. HOLD
+4. COMPLETED / TERMINATED / FAILED
+   
 
 ## Layers Statistics file
 

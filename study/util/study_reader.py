@@ -1,6 +1,9 @@
 import csv
+from typing import Optional, Tuple
 
-from study.util.study_states import StudyStates
+from .layerstats import LayerStats
+from .mapping_methods import MappingMethods
+from .study_states import StudyStates
 
 
 class StudyReader:
@@ -8,8 +11,11 @@ class StudyReader:
     __maxTaskTest = 6
     __maxTaskStudy = 54
 
-    def __init__(self, file: str):
+    __stats: list[LayerStats]
+
+    def __init__(self, file: str, stats: list[LayerStats]):
         self.__file = file
+        self.__stats = stats
 
     def read(self):
         with open(self.__file, newline='') as csv_file:
@@ -22,22 +28,37 @@ class StudyReader:
 
             for row in reader:
                 t = int(row[3].strip())
-                s = StudyStates[row[1].strip()]
+                s = self.__extract_state__(row)
                 line += 1
-                if s == StudyStates.INTERACTION:
-                    continue
-                else:
-                    print(f'Line: {line} - {row}')
 
                 if t > task_no:
                     task_no = t
 
                 if task_no == self.__maxTaskTest and t < task_no:
                     tests_completed = True
-                    break;
 
+                if s == StudyStates.INTERACTION and tests_completed:
+                    continue
+                else:
+                    print(f'Task: {task_no} | Line: {line} - {row}')
 
-
-    def __extract_interaction(self, row: list[str]):
+    @staticmethod
+    def __extract_interaction__(row: list[str]):
         if len(row) != 14:
             print(row)
+
+    @staticmethod
+    def __extract_state__(row: list[str]) -> StudyStates:
+        return StudyStates[row[1].strip()]
+
+    @staticmethod
+    def __extract_mapping_method__(row: list[str]) -> MappingMethods:
+        return MappingMethods[row[2].strip()]
+
+    def __get_depths(self, layer: int, num_layers: int, mm: MappingMethods) -> Optional[Tuple[float, float]]:
+        result = None
+        for stat in self.__stats:
+            if stat.is_associated_stat(num_layers, mm):
+                result = stat.get_depth_range(layer)
+
+        return result
