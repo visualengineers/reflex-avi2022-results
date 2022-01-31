@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="849.0" height="499.0" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g id="frame_graph_1" class="visualization">
+<rect x="0" y="0" width="849" height="499" stroke="none" fill="white"/>
+<g id="frame_data_1" class="graph">
+<rect x="8.49" y="4.99" width="832.02" height="489.02" stroke="none" fill="white"/>
+<rect x="58.87" y="4.99" width="781.64" height="424.52" stroke="none" fill="white"/>
+<g id="gridline_1034875" class="gridline-majorGridLines">
+<line x1="58.87" y1="429.51" x2="840.51" y2="429.51" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+<line x1="58.87" y1="348.85" x2="840.51" y2="348.85" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+<line x1="58.87" y1="268.19" x2="840.51" y2="268.19" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+<line x1="58.87" y1="187.53" x2="840.51" y2="187.53" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+<line x1="58.87" y1="106.87" x2="840.51" y2="106.87" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+<line x1="58.87" y1="26.22" x2="840.51" y2="26.22" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+</g>
+<g id="axis_axisx_1" class="axis-baseline">
+<path d="M58.87 429.51 L840.51 429.51" stroke="black" fill="none"/>
+<text x="385.69" y="482.97" fill="black" font-family="SansSerif" font-size="16" font-weight="bold">number of layers</text><text x="733.8" y="450.6" fill="black" font-family="SansSerif" font-size="16">21</text><text x="616.56" y="450.6" fill="black" font-family="SansSerif" font-size="16">18</text><text x="499.31" y="450.6" fill="black" font-family="SansSerif" font-size="16">15</text><text x="382.06" y="450.6" fill="black" font-family="SansSerif" font-size="16">12</text><text x="269.32" y="450.6" fill="black" font-family="SansSerif" font-size="16">9</text><text x="152.07" y="450.6" fill="black" font-family="SansSerif" font-size="16">6</text></g>
+<g id="axis_axisy_1" class="axis-baseline">
+<path d="M58.87 4.99 L58.87 429.51" stroke="black" fill="none"/>
+<text x="-281.25" y="30.58" fill="black" font-family="SansSerif" font-size="16" font-weight="bold" transform="matrix(0 -1 1 0 0 0)">number of peaks</text><text x="47.86" y="31.94" fill="black" font-family="SansSerif" font-size="11">5</text><text x="47.86" y="112.6" fill="black" font-family="SansSerif" font-size="11">4</text><text x="47.86" y="193.26" fill="black" font-family="SansSerif" font-size="11">3</text><text x="47.86" y="273.92" fill="black" font-family="SansSerif" font-size="11">2</text><text x="47.86" y="354.58" fill="black" font-family="SansSerif" font-size="11">1</text><text x="47.86" y="435.24" fill="black" font-family="SansSerif" font-size="11">0</text></g>
+<g id="element_bar_1" class="interval-main">
+<path d="M185.88 429.51 L185.88 282.14 L127.26 282.14 L127.26 429.51 L185.88 429.51 Z" stroke="none" fill="#1192e8"/>
+<path d="M303.13 429.51 L303.13 251.05 L244.51 251.05 L244.51 429.51 L303.13 429.51 Z" stroke="none" fill="#1192e8"/>
+<path d="M420.37 429.51 L420.37 209.59 L361.76 209.59 L361.76 429.51 L420.37 429.51 Z" stroke="none" fill="#1192e8"/>
+<path d="M537.62 429.51 L537.62 164.78 L479 164.78 L479 429.51 L537.62 429.51 Z" stroke="none" fill="#1192e8"/>
+<path d="M654.87 429.51 L654.87 140.07 L596.25 140.07 L596.25 429.51 L654.87 429.51 Z" stroke="none" fill="#1192e8"/>
+<path d="M772.11 429.51 L772.11 115.37 L713.5 115.37 L713.5 429.51 L772.11 429.51 Z" stroke="none" fill="#1192e8"/>
+</g>
+<g id="element_errorbar_1" class="interval-main">
+<path d="M141.92 301.2 L171.23 301.2 M156.57 301.2 L156.57 263.08 M141.92 263.08 L171.23 263.08" stroke="none" fill="black"/>
+<path d="M141.92 301.2 L171.23 301.2 M156.57 301.2 L156.57 263.08 M141.92 263.08 L171.23 263.08" stroke="black" fill="none" stroke-width="1.3333334"/>
+<path d="M259.16 270.11 L288.47 270.11 M273.82 270.11 L273.82 231.99 M259.16 231.99 L288.47 231.99" stroke="none" fill="black"/>
+<path d="M259.16 270.11 L288.47 270.11 M273.82 270.11 L273.82 231.99 M259.16 231.99 L288.47 231.99" stroke="black" fill="none" stroke-width="1.3333334"/>
+<path d="M376.41 228.65 L405.72 228.65 M391.06 228.65 L391.06 190.53 M376.41 190.53 L405.72 190.53" stroke="none" fill="black"/>
+<path d="M376.41 228.65 L405.72 228.65 M391.06 228.65 L391.06 190.53 M376.41 190.53 L405.72 190.53" stroke="black" fill="none" stroke-width="1.3333334"/>
+<path d="M493.66 183.84 L522.97 183.84 M508.31 183.84 L508.31 145.72 M493.66 145.72 L522.97 145.72" stroke="none" fill="black"/>
+<path d="M493.66 183.84 L522.97 183.84 M508.31 183.84 L508.31 145.72 M493.66 145.72 L522.97 145.72" stroke="black" fill="none" stroke-width="1.3333334"/>
+<path d="M610.9 159.13 L640.21 159.13 M625.56 159.13 L625.56 121.01 M610.9 121.01 L640.21 121.01" stroke="none" fill="black"/>
+<path d="M610.9 159.13 L640.21 159.13 M625.56 159.13 L625.56 121.01 M610.9 121.01 L640.21 121.01" stroke="black" fill="none" stroke-width="1.3333334"/>
+<path d="M728.15 134.43 L757.46 134.43 M742.8 134.43 L742.8 96.31 M728.15 96.31 L757.46 96.31" stroke="none" fill="black"/>
+<path d="M728.15 134.43 L757.46 134.43 M742.8 134.43 L742.8 96.31 M728.15 96.31 L757.46 96.31" stroke="black" fill="none" stroke-width="1.3333334"/>
+</g>
+<g id="guide_referenceLine_226" class="lineGuide-main">
+<path d="M58.87 429.51 L840.51 429.51" stroke="black" fill="none" stroke-width="3.3333333"/>
+</g>
+<g id="guide_referenceLine_227" class="lineGuide-main">
+<path d="M58.87 193.83 L840.51 193.83" stroke="black" fill="none" stroke-width="3.3333333"/>
+<rect x="58.87" y="4.99" width="781.64" height="424.52" stroke="none" fill="none" stroke-width="1.0" stroke-opacity="0"/>
+<rect x="8.49" y="4.99" width="832.02" height="489.02" stroke="none" fill="none" stroke-width="1.0" stroke-opacity="0"/>
+</g>
+</g>
+<rect x="0" y="0" width="849" height="499" stroke="none" fill="none" stroke-width="1.0" stroke-opacity="0"/>
+</g>
+</svg>

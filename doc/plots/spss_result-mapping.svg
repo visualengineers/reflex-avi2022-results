@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="850.0" height="540.0" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g id="frame_graph_1" class="visualization">
+<rect x="0" y="0" width="850" height="540" stroke="none" fill="white"/>
+<g id="frame_data_1" class="graph">
+<rect x="8.5" y="13.5" width="824.5" height="521.1" stroke="none" fill="white"/>
+<rect x="61.88" y="13.5" width="771.12" height="456.6" stroke="none" fill="#f0f0f0"/>
+<g id="gridline_1029526" class="gridline-majorGridLines">
+<line x1="61.88" y1="470.1" x2="833" y2="470.1" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+<line x1="61.88" y1="361.66" x2="833" y2="361.66" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+<line x1="61.88" y1="253.21" x2="833" y2="253.21" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+<line x1="61.88" y1="144.77" x2="833" y2="144.77" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+<line x1="61.88" y1="36.33" x2="833" y2="36.33" stroke="#aeaeae" fill="none" stroke-width="1.0"/>
+</g>
+<g id="axis_axisx_1" class="axis-baseline">
+<path d="M61.88 470.1 L833 470.1" stroke="black" fill="none"/>
+<text x="382.94" y="523.56" fill="black" font-family="SansSerif" font-size="16" font-weight="bold">mapping method</text><text x="647.78" y="491.19" fill="black" font-family="SansSerif" font-size="16">widening</text><text x="409.44" y="491.19" fill="black" font-family="SansSerif" font-size="16">equidistant</text><text x="177.6" y="491.19" fill="black" font-family="SansSerif" font-size="16">condensed</text></g>
+<g id="interval_1029905" class="interval-main">
+<path d="M273.93 470.1 L273.93 63.31 L158.27 63.31 L158.27 470.1 L273.93 470.1 Z" stroke="none" fill="#5596e6"/>
+<path d="M273.93 470.1 L273.93 63.31 L158.27 63.31 L158.27 470.1 L273.93 470.1 Z" stroke="black" fill="none" stroke-width="1.0"/>
+<path d="M505.27 470.1 L505.27 70.64 L389.61 70.64 L389.61 470.1 L505.27 470.1 Z" stroke="none" fill="#5596e6"/>
+<path d="M505.27 470.1 L505.27 70.64 L389.61 70.64 L389.61 470.1 L505.27 470.1 Z" stroke="black" fill="none" stroke-width="1.0"/>
+<path d="M736.6 470.1 L736.6 137.18 L620.95 137.18 L620.95 470.1 L736.6 470.1 Z" stroke="none" fill="#5596e6"/>
+<path d="M736.6 470.1 L736.6 137.18 L620.95 137.18 L620.95 470.1 L736.6 470.1 Z" stroke="black" fill="none" stroke-width="1.0"/>
+</g>
+<g id="element_errorbar_1" class="interval-main">
+<path d="M197.2 75.6 L235 75.6 M216.1 75.6 L216.1 51.01 M197.2 51.01 L235 51.01" stroke="none" fill="black"/>
+<path d="M197.2 75.6 L235 75.6 M216.1 75.6 L216.1 51.01 M197.2 51.01 L235 51.01" stroke="black" fill="none" stroke-width="1.3333334"/>
+<path d="M428.54 82.94 L466.34 82.94 M447.44 82.94 L447.44 58.35 M428.54 58.35 L466.34 58.35" stroke="none" fill="black"/>
+<path d="M428.54 82.94 L466.34 82.94 M447.44 82.94 L447.44 58.35 M428.54 58.35 L466.34 58.35" stroke="black" fill="none" stroke-width="1.3333334"/>
+<path d="M659.88 149.47 L697.67 149.47 M678.78 149.47 L678.78 124.88 M659.88 124.88 L697.67 124.88" stroke="none" fill="black"/>
+<path d="M659.88 149.47 L697.67 149.47 M678.78 149.47 L678.78 124.88 M659.88 124.88 L697.67 124.88" stroke="black" fill="none" stroke-width="1.3333334"/>
+</g>
+<g id="guide_referenceLine_226" class="lineGuide-main">
+<path d="M61.88 470.1 L833 470.1" stroke="black" fill="none" stroke-width="3.3333333"/>
+</g>
+<g id="guide_referenceLine_227" class="lineGuide-main">
+<path d="M61.88 90.38 L833 90.38" stroke="black" fill="none" stroke-width="3.3333333"/>
+</g>
+<g id="axis_axisy_1" class="axis-minorTicks">
+<line x1="61.88" y1="415.88" x2="58.36" y2="415.88" stroke="black" fill="none" stroke-width="1.0"/>
+<line x1="61.88" y1="307.44" x2="58.36" y2="307.44" stroke="black" fill="none" stroke-width="1.0"/>
+<line x1="61.88" y1="198.99" x2="58.36" y2="198.99" stroke="black" fill="none" stroke-width="1.0"/>
+<line x1="61.88" y1="90.55" x2="58.36" y2="90.55" stroke="black" fill="none" stroke-width="1.0"/>
+</g>
+<g id="axis_axisy_1" class="axis-baseline">
+<path d="M61.88 13.5 L61.88 470.1" stroke="black" title=",8" fill="none"/>
+<text x="-300.8" y="30.59" fill="black" font-family="SansSerif" font-size="16" font-weight="bold" transform="matrix(0 -1 1 0 0 0)">completion rate</text><text x="47.88" y="42.06" fill="black" font-family="SansSerif" font-size="11">,8</text><text x="47.88" y="150.5" fill="black" font-family="SansSerif" font-size="11">,6</text><text x="47.88" y="258.94" fill="black" font-family="SansSerif" font-size="11">,4</text><text x="47.88" y="367.38" fill="black" font-family="SansSerif" font-size="11">,2</text><text x="47.88" y="475.83" fill="black" font-family="SansSerif" font-size="11">,0</text><rect x="61.88" y="13.5" width="771.12" height="456.6" stroke="black" fill="none" stroke-width="1.0"/>
+<rect x="8.5" y="13.5" width="824.5" height="521.1" stroke="none" fill="none" stroke-width="1.0" stroke-opacity="0"/>
+</g>
+</g>
+<g id="legendContainer" class="container">
+<rect x="637.5" y="13.5" width="204" height="0" stroke="none" fill="white"/>
+<rect x="637.5" y="13.5" width="204" height="0" stroke="none" fill="none" stroke-width="1.0" stroke-opacity="0"/>
+</g>
+<rect x="0" y="0" width="850" height="540" stroke="none" fill="none" stroke-width="1.0" stroke-opacity="0"/>
+</g>
+</svg>
