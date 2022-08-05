@@ -114,4 +114,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 export/cleanedStudy.csv
+export/cleanedStudy_interactionOnly.csv
 export/interaction/
