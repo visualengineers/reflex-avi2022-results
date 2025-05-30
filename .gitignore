@@ -116,3 +116,5 @@ dmypy.json
 export/cleanedStudy.csv
 export/cleanedStudy_interactionOnly.csv
 export/interaction/
+
+.DS_Store
