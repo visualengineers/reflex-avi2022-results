@@ -1,0 +1,28 @@
+technical	human	PQ
+complicated	simple	PQ
+impractical	practical	PQ
+cumbersome	straightforward	PQ
+unpredictable	predictable	PQ
+confusing	clearly structured	PQ
+unruly	manageable	PQ
+isolating	connective	HQ-I
+unprofessional	professional	HQ-I
+tacky	stylish	HQ-I
+cheap	premium	HQ-I
+alienating	integrating	HQ-I
+separates me from people	brings me closer to people	HQ-I
+unpresentable	presentable	HQ-I
+conventional	inventive	HQ-S
+unimaginative	creative	HQ-S
+cautious	bold	HQ-S
+conservative	innovative	HQ-S
+dull	captivating	HQ-S
+undemanding	challenging	HQ-S
+ordinary	novel	HQ-S
+unpleasant	pleasant	ATT
+ugly	attractive	ATT
+disagreeable	likeable	ATT
+rejecting	inviting	ATT
+bad	good	ATT
+repelling	appealing	ATT
+discouraging	motivating	ATT
