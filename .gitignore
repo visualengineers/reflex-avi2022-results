@@ -118,3 +118,9 @@ export/cleanedStudy_interactionOnly.csv
 export/interaction/
 
 .DS_Store
+data/questionnaires/Allgemeine_Angaben.tsv
+data/questionnaires/Beobachtungsprotokoll.tsv
+data/questionnaires/Beobachtungsprotokoll.xlsx
+export/cleanedStudy_interactionOnly_removed-inactive-300.csv
+export/cleanedStudy_interactionOnly_removed-inactive-90.csv
+export/data_complete.csv
