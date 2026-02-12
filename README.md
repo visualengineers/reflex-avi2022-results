@@ -1,11 +1,32 @@
-# Zelasto Study 1
+# AVI 2022: Study Data
 
-Python project to evaluate study log files
+Raw and processed study data, analysis procedure and results for study on Layer-based Interaction on Elastic Dispalys, published in:  
 
-1. [Log files Structure](#log-files-structure)
-2. [Values](#values)
-3. [order of states](#order-of-states)
-4. [Layers Statistics file](#layers-statistics-file)
+  **Mathias Müller, Elena Stoll, Anna-Magdalena Krauß, Franziska Hannß & Dietrich Kammer** (2022): "*Investigating Usability and User Experience of Layer-Based Interaction with a Deformable Elastic Display*". In: [AVI '22: Proceedings of the 2022 International Conference on Advanced Visual Interfaces](https://dl.acm.org/doi/proceedings/10.1145/3531073), Article No.: 11, Pages 1 - 9, https://doi.org/10.1145/3531073.3531101
+
+---
+
+<!-- omit in toc -->
+## Table-of-Contents
+
+1. [Repository Overview](#repository-overview)
+2. [Log files Structure](#log-files-structure)
+3. [Values](#values)
+4. [order of states](#order-of-states)
+5. [Layers Statistics file](#layers-statistics-file)
+
+## Repository Overview
+
+This repository contains raw study logs, analysis code, processed exports, and SPSS/dissertation artifacts for the Zelasto study.
+
+| Folder | Content Overview |
+| --- | --- |
+| `code/` | Analysis notebooks (`.ipynb`), plotting/statistics workflows, and generated NASA TLX PDFs plus image assets in `code/images/`. |
+| `data/` | Raw participant log files (`01.csv`-`24.csv`), layer metadata in `data/meta/`, and questionnaire files in `data/questionnaires/` (raw data omitted for privacy protection). |
+| `export/` | Generated analysis outputs: cleaned CSV datasets, descriptive statistics, result tables, interaction exports, and figures in `export/img/`. |
+| `spss/` | SPSS datasets (`.sav`) and output files (`.spv`/`.htm`/`.pdf`), including updated model results in `spss/updated/`. |
+| `diss/` | updated material prepared for use in PhD-Thesis: CSV summaries, SPSS data/output, exported HTML reports, and figures. |
+| `doc/` | Documentation and report assets (`.docx`), plus reusable plots and tables for write-ups. |
 
 ## Log files Structure
 
